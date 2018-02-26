@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+}
+#demo {
+	position: absolute;
+	width: 70vw;
+	height: 70vh;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+
+.dimg {
+	position: relative;
+	display: block;
+	height: 100px;
+	width: auto;
+	right: 0px;
+	left: 70px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+
+#footer {
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 450px;
+	bottom: 0px;
+	margin: auto;
+}
+
+.rbpair1 {
+	position: relative;
+	display: block;
+	right: 0px;
+	left: 25px;
+	top: -10px;
+	bottom: 0px;
+	margin: auto;
+}
+
+.rbpair2 {
+	position: relative;
+	display: block;
+	right: 0px;
+	left: 0px;
+	top: -10px;
+	bottom: 0px;
+	margin: auto;
+}
