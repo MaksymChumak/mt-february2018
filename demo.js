@@ -112,7 +112,7 @@ prev.addEventListener('click', function() {
 		}
 		
 	} else {
-		alert('Chose an option');
+		alert('Choose an option');
 	}
 });
 
@@ -141,7 +141,7 @@ inputText.addEventListener('keyup', function(ev) {
 				bimg.src = "imgs/gears/b3.png";
 				limg.src = "imgs/gears/l3.png";
 				fimg.src = "imgs/gears/f3.png";
-			} else if (inputText.value = 'random') {
+			} else if (inputText.value == 'random') {
 				var randomNum = getRandomInt(3) + 1;
 				himg.src = "imgs/gears/h" + randomNum + ".png";
 				bimg.src = "imgs/gears/b" + randomNum + ".png";
